@@ -8,12 +8,14 @@
 import Foundation
 
 
-struct Song: Codable, Identifiable{
+struct Song: Codable, Identifiable {
     let rank: String
     let title: String
     let artist: String
     let last_week: String
     let peak_position: String
     let weeks_on_chart: String
-    var id: String{rank}
+    
+    // Using rank as the unique identifier for Song
+    var id: String { rank }
 }

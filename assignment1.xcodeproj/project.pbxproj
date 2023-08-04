@@ -11,6 +11,8 @@
 		B32B37E32A7CF0CB0034A27A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B32B37E22A7CF0CB0034A27A /* data.json */; };
 		B32B37E52A7CF10E0034A27A /* decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32B37E42A7CF10E0034A27A /* decoder.swift */; };
 		B32B37E72A7CF1770034A27A /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32B37E62A7CF1770034A27A /* Song.swift */; };
+		B3515E332A7CF30900DE3B42 /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3515E322A7CF30900DE3B42 /* SongList.swift */; };
+		B3515E352A7CF74800DE3B42 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3515E342A7CF74800DE3B42 /* SongView.swift */; };
 		B361EE202A6E578800DF9AC9 /* assignment1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361EE1F2A6E578800DF9AC9 /* assignment1App.swift */; };
 		B361EE222A6E578800DF9AC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361EE212A6E578800DF9AC9 /* ContentView.swift */; };
 		B361EE242A6E578A00DF9AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B361EE232A6E578A00DF9AC9 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 		B32B37E22A7CF0CB0034A27A /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		B32B37E42A7CF10E0034A27A /* decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decoder.swift; sourceTree = "<group>"; };
 		B32B37E62A7CF1770034A27A /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		B3515E322A7CF30900DE3B42 /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
+		B3515E342A7CF74800DE3B42 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
 		B361EE1C2A6E578800DF9AC9 /* assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B361EE1F2A6E578800DF9AC9 /* assignment1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1App.swift; sourceTree = "<group>"; };
 		B361EE212A6E578800DF9AC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +84,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3515E312A7CF2C400DE3B42 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B32B37E22A7CF0CB0034A27A /* data.json */,
+				B32B37E62A7CF1770034A27A /* Song.swift */,
+				B32B37E42A7CF10E0034A27A /* decoder.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		B361EE132A6E578800DF9AC9 = {
 			isa = PBXGroup;
 			children = (
@@ -103,12 +117,12 @@
 		B361EE1E2A6E578800DF9AC9 /* assignment1 */ = {
 			isa = PBXGroup;
 			children = (
+				B3515E312A7CF2C400DE3B42 /* model */,
 				B361EE1F2A6E578800DF9AC9 /* assignment1App.swift */,
-				B32B37E22A7CF0CB0034A27A /* data.json */,
+				B3515E322A7CF30900DE3B42 /* SongList.swift */,
 				B361EE212A6E578800DF9AC9 /* ContentView.swift */,
 				106FEFC02A72DCA000A2A439 /* Mainview.swift */,
-				B32B37E42A7CF10E0034A27A /* decoder.swift */,
-				B32B37E62A7CF1770034A27A /* Song.swift */,
+				B3515E342A7CF74800DE3B42 /* SongView.swift */,
 				B361EE232A6E578A00DF9AC9 /* Assets.xcassets */,
 				B361EE252A6E578A00DF9AC9 /* assignment1.entitlements */,
 				B361EE262A6E578A00DF9AC9 /* Preview Content */,
@@ -272,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3515E332A7CF30900DE3B42 /* SongList.swift in Sources */,
 				B32B37E72A7CF1770034A27A /* Song.swift in Sources */,
 				B32B37E52A7CF10E0034A27A /* decoder.swift in Sources */,
+				B3515E352A7CF74800DE3B42 /* SongView.swift in Sources */,
 				B361EE222A6E578800DF9AC9 /* ContentView.swift in Sources */,
 				106FEFC12A72DCA000A2A439 /* Mainview.swift in Sources */,
 				B361EE202A6E578800DF9AC9 /* assignment1App.swift in Sources */,

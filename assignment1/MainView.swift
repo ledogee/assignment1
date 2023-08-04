@@ -2,7 +2,6 @@ import SwiftUI
 
 struct MainView: View {
     @State private var isInfoVisible = false
-    
     var body: some View {
         ZStack {
             // Background Picture
@@ -17,6 +16,7 @@ struct MainView: View {
                     .foregroundColor(.white)
                     .padding()
                 
+                
                 NavigationLink(destination: ContentView()) {
                     Text("Link to Program")
                         .font(.headline)
@@ -24,7 +24,6 @@ struct MainView: View {
                         .underline()
                         .padding()
                 }
-                .buttonStyle(GradientButtonStyle())
                 
                 Spacer()
                 
