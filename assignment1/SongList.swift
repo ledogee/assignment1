@@ -12,9 +12,9 @@ struct SongListView: View {
     @AppStorage("isDark") private var isDark = false
     @State private var searchText = ""
     @State private var isOn = false
-    
+
     var body: some View {
-        NavigationView{
+        NavigationView {
             List {
                 if searchResults.isEmpty {
                     Text("Sorry, we cannot find your result!")
@@ -23,11 +23,7 @@ struct SongListView: View {
                         .foregroundColor(.blue)
                 } else {
                     ForEach(searchResults) { song in
-                        NavigationLink(destination: SongView(song: song)) {
-                            Text("Title: \(song.title)")
-                            Text("Artist: \(song.artist)")
-                        }
-                        .navigationTitle("Song List")
+                        CustomNavigationLink(song: song)
                     }
                     .preferredColorScheme(isDark ? .dark : .light)
                 }
@@ -42,13 +38,42 @@ struct SongListView: View {
             .environment(\.colorScheme, isDark ? .dark : .light)
             .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always))
             .background(Image("app-cover-background"))
-        }.navigationBarTitle("Top Songs")
+        }
+        .navigationBarTitle("Top Songs")
     }
+
     var searchResults: [Song] {
-        if searchText.isEmpty{
+        if searchText.isEmpty {
             return songs
         } else {
             return songs.filter { $0.title.contains(searchText) }
+        }
+    }
+}
+
+struct CustomNavigationLink: View {
+    var song: Song
+
+    var body: some View {
+        NavigationLink(destination: SongView(song: song)) {
+            HStack {
+                // 1x Image on the left
+                Image("\(song.title) Square")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 40, height: 40) // Set the appropriate size for the image
+
+                // Song Title and Artist on the right
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(song.title)
+                        .font(.headline)
+                        .lineLimit(1) // Limit the title to one line
+                    Text(song.artist)
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                        .lineLimit(1) // Limit the artist name to one line
+                }
+            }
         }
     }
 }
