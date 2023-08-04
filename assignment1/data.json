@@ -1,0 +1,804 @@
+[
+    {
+        "rank": "1",
+        "title": "Try That In A Small Town",
+        "artist": "Jason Aldean",
+        "last_week": "2",
+        "peak_position": "1",
+        "weeks_on_chart": "2"
+    },
+    {
+        "rank": "2",
+        "title": "Last Night",
+        "artist": "Morgan Wallen",
+        "last_week": "3",
+        "peak_position": "1",
+        "weeks_on_chart": "26"
+    },
+    {
+        "rank": "3",
+        "title": "Fast Car",
+        "artist": "Luke Combs",
+        "last_week": "4",
+        "peak_position": "2",
+        "weeks_on_chart": "18"
+    },
+    {
+        "rank": "4",
+        "title": "Fukumean",
+        "artist": "Gunna",
+        "last_week": "6",
+        "peak_position": "4",
+        "weeks_on_chart": "6"
+    },
+    {
+        "rank": "5",
+        "title": "Calm Down",
+        "artist": "Rema & Selena Gomez",
+        "last_week": "5",
+        "peak_position": "3",
+        "weeks_on_chart": "47"
+    },
+    {
+        "rank": "6",
+        "title": "Cruel Summer",
+        "artist": "Taylor Swift",
+        "last_week": "8",
+        "peak_position": "6",
+        "weeks_on_chart": "12"
+    },
+    {
+        "rank": "7",
+        "title": "NEW K-POP",
+        "artist": "Travis Scott, Bad Bunny & The Weeknd",
+        "last_week": "-",
+        "peak_position": "7",
+        "weeks_on_chart": "1"
+    },
+    {
+        "rank": "8",
+        "title": "Barbie World",
+        "artist": "Nicki Minaj & Ice Spice With Aqua",
+        "last_week": "27",
+        "peak_position": "7",
+        "weeks_on_chart": "5"
+    },
+    {
+        "rank": "9",
+        "title": "Seven",
+        "artist": "Jung Kook Featuring Latto",
+        "last_week": "1",
+        "peak_position": "1",
+        "weeks_on_chart": "2"
+    },
+    {
+        "rank": "10",
+        "title": "Vampire",
+        "artist": "Olivia Rodrigo",
+        "last_week": "7",
+        "peak_position": "1",
+        "weeks_on_chart": "4"
+    },
+    {
+        "rank": "11",
+        "title": "Flowers",
+        "artist": "Miley Cyrus",
+        "last_week": "9",
+        "peak_position": "1",
+        "weeks_on_chart": "28"
+    },
+    {
+        "rank": "12",
+        "title": "Dance The Night",
+        "artist": "Dua Lipa",
+        "last_week": "25",
+        "peak_position": "12",
+        "weeks_on_chart": "9"
+    },
+    {
+        "rank": "13",
+        "title": "All My Life",
+        "artist": "Lil Durk Featuring J. Cole",
+        "last_week": "10",
+        "peak_position": "2",
+        "weeks_on_chart": "11"
+    },
+    {
+        "rank": "14",
+        "title": "Snooze",
+        "artist": "SZA",
+        "last_week": "12",
+        "peak_position": "11",
+        "weeks_on_chart": "33"
+    },
+    {
+        "rank": "15",
+        "title": "Karma",
+        "artist": "Taylor Swift Featuring Ice Spice",
+        "last_week": "11",
+        "peak_position": "2",
+        "weeks_on_chart": "20"
+    },
+    {
+        "rank": "16",
+        "title": "Need A Favor",
+        "artist": "Jelly Roll",
+        "last_week": "14",
+        "peak_position": "14",
+        "weeks_on_chart": "17"
+    },
+    {
+        "rank": "17",
+        "title": "Kill Bill",
+        "artist": "SZA",
+        "last_week": "13",
+        "peak_position": "1",
+        "weeks_on_chart": "33"
+    },
+    {
+        "rank": "18",
+        "title": "What Was I Made For?",
+        "artist": "Billie Eilish",
+        "last_week": "34",
+        "peak_position": "18",
+        "weeks_on_chart": "2"
+    },
+    {
+        "rank": "19",
+        "title": "Sure Thing",
+        "artist": "Miguel",
+        "last_week": "16",
+        "peak_position": "11",
+        "weeks_on_chart": "52"
+    },
+    {
+        "rank": "20",
+        "title": "Creepin'",
+        "artist": "Metro Boomin, The Weeknd & 21 Savage",
+        "last_week": "17",
+        "peak_position": "3",
+        "weeks_on_chart": "34"
+    },
+    {
+        "rank": "21",
+        "title": "Something In The Orange",
+        "artist": "Zach Bryan",
+        "last_week": "18",
+        "peak_position": "10",
+        "weeks_on_chart": "66"
+    },
+    {
+        "rank": "22",
+        "title": "Anti-Hero",
+        "artist": "Taylor Swift",
+        "last_week": "19",
+        "peak_position": "1",
+        "weeks_on_chart": "40"
+    },
+    {
+        "rank": "23",
+        "title": "Favorite Song",
+        "artist": "Toosii",
+        "last_week": "15",
+        "peak_position": "5",
+        "weeks_on_chart": "23"
+    },
+    {
+        "rank": "24",
+        "title": "Religiously",
+        "artist": "Bailey Zimmerman",
+        "last_week": "26",
+        "peak_position": "24",
+        "weeks_on_chart": "12"
+    },
+    {
+        "rank": "25",
+        "title": "Dial Drunk",
+        "artist": "Noah Kahan",
+        "last_week": "39",
+        "peak_position": "25",
+        "weeks_on_chart": "6"
+    },
+    {
+        "rank": "26",
+        "title": "Die For You",
+        "artist": "The Weeknd & Ariana Grande",
+        "last_week": "21",
+        "peak_position": "1",
+        "weeks_on_chart": "52"
+    },
+    {
+        "rank": "27",
+        "title": "Thinkin' Bout Me",
+        "artist": "Morgan Wallen",
+        "last_week": "22",
+        "peak_position": "9",
+        "weeks_on_chart": "21"
+    },
+    {
+        "rank": "28",
+        "title": "Ella Baila Sola",
+        "artist": "Eslabon Armado X Peso Pluma",
+        "last_week": "20",
+        "peak_position": "4",
+        "weeks_on_chart": "19"
+    },
+    {
+        "rank": "29",
+        "title": "Cupid",
+        "artist": "Fifty Fifty",
+        "last_week": "24",
+        "peak_position": "17",
+        "weeks_on_chart": "19"
+    },
+    {
+        "rank": "30",
+        "title": "Next Thing You Know",
+        "artist": "Jordan Davis",
+        "last_week": "28",
+        "peak_position": "23",
+        "weeks_on_chart": "27"
+    },
+    {
+        "rank": "31",
+        "title": "NEW White Horse",
+        "artist": "Chris Stapleton",
+        "last_week": "-",
+        "peak_position": "31",
+        "weeks_on_chart": "1"
+    },
+    {
+        "rank": "32",
+        "title": "La Bebe",
+        "artist": "Yng Lvcas x Peso Pluma",
+        "last_week": "29",
+        "peak_position": "11",
+        "weeks_on_chart": "19"
+    },
+    {
+        "rank": "33",
+        "title": "I'm Good (Blue)",
+        "artist": "David Guetta & Bebe Rexha",
+        "last_week": "31",
+        "peak_position": "4",
+        "weeks_on_chart": "48"
+    },
+    {
+        "rank": "34",
+        "title": "Thought You Should Know",
+        "artist": "Morgan Wallen",
+        "last_week": "30",
+        "peak_position": "7",
+        "weeks_on_chart": "50"
+    },
+    {
+        "rank": "35",
+        "title": "Search & Rescue",
+        "artist": "Drake",
+        "last_week": "35",
+        "peak_position": "2",
+        "weeks_on_chart": "16"
+    },
+    {
+        "rank": "36",
+        "title": "Un x100to",
+        "artist": "Grupo Frontera X Bad Bunny",
+        "last_week": "32",
+        "peak_position": "5",
+        "weeks_on_chart": "15"
+    },
+    {
+        "rank": "37",
+        "title": "Love You Anyway",
+        "artist": "Luke Combs",
+        "last_week": "41",
+        "peak_position": "15",
+        "weeks_on_chart": "24"
+    },
+    {
+        "rank": "38",
+        "title": "Dancin' In The Country",
+        "artist": "Tyler Hubbard",
+        "last_week": "36",
+        "peak_position": "23",
+        "weeks_on_chart": "23"
+    },
+    {
+        "rank": "39",
+        "title": "Bury Me In Georgia",
+        "artist": "Kane Brown",
+        "last_week": "40",
+        "peak_position": "39",
+        "weeks_on_chart": "11"
+    },
+    {
+        "rank": "40",
+        "title": "Princess Diana",
+        "artist": "Ice Spice & Nicki Minaj",
+        "last_week": "49",
+        "peak_position": "4",
+        "weeks_on_chart": "15"
+    },
+    {
+        "rank": "41",
+        "title": "NEW Deli",
+        "artist": "Ice Spice",
+        "last_week": "-",
+        "peak_position": "41",
+        "weeks_on_chart": "1"
+    },
+    {
+        "rank": "42",
+        "title": "Put It On Da Floor Again",
+        "artist": "Latto Featuring Cardi B",
+        "last_week": "42",
+        "peak_position": "13",
+        "weeks_on_chart": "8"
+    },
+    {
+        "rank": "43",
+        "title": "Where She Goes",
+        "artist": "Bad Bunny",
+        "last_week": "44",
+        "peak_position": "8",
+        "weeks_on_chart": "10"
+    },
+    {
+        "rank": "44",
+        "title": "Eyes Closed",
+        "artist": "Ed Sheeran",
+        "last_week": "37",
+        "peak_position": "19",
+        "weeks_on_chart": "18"
+    },
+    {
+        "rank": "45",
+        "title": "I Can See You (Taylor's Version) (From The Vault)",
+        "artist": "Taylor Swift",
+        "last_week": "33",
+        "peak_position": "5",
+        "weeks_on_chart": "3"
+    },
+    {
+        "rank": "46",
+        "title": "Chemical",
+        "artist": "Post Malone",
+        "last_week": "43",
+        "peak_position": "13",
+        "weeks_on_chart": "15"
+    },
+    {
+        "rank": "47",
+        "title": "Memory Lane",
+        "artist": "Old Dominion",
+        "last_week": "38",
+        "peak_position": "27",
+        "weeks_on_chart": "17"
+    },
+    {
+        "rank": "48",
+        "title": "Super Shy",
+        "artist": "NewJeans",
+        "last_week": "64",
+        "peak_position": "48",
+        "weeks_on_chart": "3"
+    },
+    {
+        "rank": "49",
+        "title": "LaLa",
+        "artist": "Myke Towers",
+        "last_week": "48",
+        "peak_position": "48",
+        "weeks_on_chart": "3"
+    },
+    {
+        "rank": "50",
+        "title": "Sabor Fresa",
+        "artist": "Fuerza Regida",
+        "last_week": "45",
+        "peak_position": "26",
+        "weeks_on_chart": "5"
+    },
+    {
+        "rank": "51",
+        "title": "Lady Gaga",
+        "artist": "Peso Pluma, Gabito Ballesteros & Junior H",
+        "last_week": "51",
+        "peak_position": "35",
+        "weeks_on_chart": "5"
+    },
+    {
+        "rank": "52",
+        "title": "You, Me, & Whiskey",
+        "artist": "Justin Moore & Priscilla Block",
+        "last_week": "58",
+        "peak_position": "52",
+        "weeks_on_chart": "12"
+    },
+    {
+        "rank": "53",
+        "title": "Area Codes",
+        "artist": "Kaliii",
+        "last_week": "46",
+        "peak_position": "33",
+        "weeks_on_chart": "12"
+    },
+    {
+        "rank": "54",
+        "title": "Your Heart Or Mine",
+        "artist": "Jon Pardi",
+        "last_week": "53",
+        "peak_position": "53",
+        "weeks_on_chart": "11"
+    },
+    {
+        "rank": "55",
+        "title": "Baby Don't Hurt Me",
+        "artist": "David Guetta, Anne-Marie & Coi Leray",
+        "last_week": "57",
+        "peak_position": "55",
+        "weeks_on_chart": "10"
+    },
+    {
+        "rank": "56",
+        "title": "Tulum",
+        "artist": "Peso Pluma & Grupo Frontera",
+        "last_week": "50",
+        "peak_position": "43",
+        "weeks_on_chart": "4"
+    },
+    {
+        "rank": "57",
+        "title": "Peaches & Eggplants",
+        "artist": "Young Nudy Featuring 21 Savage",
+        "last_week": "52",
+        "peak_position": "52",
+        "weeks_on_chart": "8"
+    },
+    {
+        "rank": "58",
+        "title": "What It Is (Block Boy)",
+        "artist": "Doechii Featuring Kodak Black",
+        "last_week": "54",
+        "peak_position": "54",
+        "weeks_on_chart": "12"
+    },
+    {
+        "rank": "59",
+        "title": "Daylight",
+        "artist": "David Kushner",
+        "last_week": "61",
+        "peak_position": "47",
+        "weeks_on_chart": "15"
+    },
+    {
+        "rank": "60",
+        "title": "Mourning",
+        "artist": "Post Malone",
+        "last_week": "55",
+        "peak_position": "36",
+        "weeks_on_chart": "10"
+    },
+    {
+        "rank": "61",
+        "title": "Watermelon Moonshine",
+        "artist": "Lainey Wilson",
+        "last_week": "60",
+        "peak_position": "60",
+        "weeks_on_chart": "5"
+    },
+    {
+        "rank": "62",
+        "title": "Stand By Me",
+        "artist": "Lil Durk Featuring Morgan Wallen",
+        "last_week": "59",
+        "peak_position": "22",
+        "weeks_on_chart": "9"
+    },
+    {
+        "rank": "63",
+        "title": "TQM",
+        "artist": "Fuerza Regida",
+        "last_week": "56",
+        "peak_position": "34",
+        "weeks_on_chart": "10"
+    },
+    {
+        "rank": "64",
+        "title": "NEW Heartbroken",
+        "artist": "Diplo, Jessie Murph & Polo G",
+        "last_week": "-",
+        "peak_position": "64",
+        "weeks_on_chart": "1"
+    },
+    {
+        "rank": "65",
+        "title": "Shake Sumn",
+        "artist": "DaBaby",
+        "last_week": "67",
+        "peak_position": "65",
+        "weeks_on_chart": "10"
+    },
+    {
+        "rank": "66",
+        "title": "Oh U Went",
+        "artist": "Young Thug Featuring Drake",
+        "last_week": "68",
+        "peak_position": "19",
+        "weeks_on_chart": "5"
+    },
+    {
+        "rank": "67",
+        "title": "Everything I Love",
+        "artist": "Morgan Wallen",
+        "last_week": "72",
+        "peak_position": "14",
+        "weeks_on_chart": "22"
+    },
+    {
+        "rank": "68",
+        "title": "Popular",
+        "artist": "The Weeknd, Playboi Carti & Madonna",
+        "last_week": "66",
+        "peak_position": "43",
+        "weeks_on_chart": "8"
+    },
+    {
+        "rank": "69",
+        "title": "Truck Bed",
+        "artist": "HARDY",
+        "last_week": "75",
+        "peak_position": "69",
+        "weeks_on_chart": "6"
+    },
+    {
+        "rank": "70",
+        "title": "Fragil",
+        "artist": "Yahritza y Su Esencia x Grupo Frontera",
+        "last_week": "71",
+        "peak_position": "69",
+        "weeks_on_chart": "14"
+    },
+    {
+        "rank": "71",
+        "title": "ICU",
+        "artist": "Coco Jones",
+        "last_week": "62",
+        "peak_position": "62",
+        "weeks_on_chart": "17"
+    },
+    {
+        "rank": "72",
+        "title": "Bzrp Music Sessions, Vol. 55",
+        "artist": "Bizarrap & Peso Pluma",
+        "last_week": "69",
+        "peak_position": "31",
+        "weeks_on_chart": "8"
+    },
+    {
+        "rank": "73",
+        "title": "NEW Speed Drive",
+        "artist": "Charli XCX",
+        "last_week": "-",
+        "peak_position": "73",
+        "weeks_on_chart": "1"
+    },
+    {
+        "rank": "74",
+        "title": "Pound Town 2",
+        "artist": "Sexyy Red & Tay Keith & Nicki Minaj",
+        "last_week": "78",
+        "peak_position": "66",
+        "weeks_on_chart": "8"
+    },
+    {
+        "rank": "75",
+        "title": "Bye",
+        "artist": "Peso Pluma",
+        "last_week": "74",
+        "peak_position": "48",
+        "weeks_on_chart": "9"
+    },
+    {
+        "rank": "76",
+        "title": "Por Las Noches",
+        "artist": "Peso Pluma",
+        "last_week": "80",
+        "peak_position": "28",
+        "weeks_on_chart": "20"
+    },
+    {
+        "rank": "77",
+        "title": "Lagunas",
+        "artist": "Peso Pluma & Jasiel Nunez",
+        "last_week": "85",
+        "peak_position": "77",
+        "weeks_on_chart": "5"
+    },
+    {
+        "rank": "78",
+        "title": "Jaded",
+        "artist": "Miley Cyrus",
+        "last_week": "88",
+        "peak_position": "56",
+        "weeks_on_chart": "10"
+    },
+    {
+        "rank": "79",
+        "title": "See You Again",
+        "artist": "Tyler, The Creator Featuring Kali Uchis",
+        "last_week": "82",
+        "peak_position": "44",
+        "weeks_on_chart": "15"
+    },
+    {
+        "rank": "80",
+        "title": "Flooded The Face",
+        "artist": "Lil Uzi Vert",
+        "last_week": "70",
+        "peak_position": "11",
+        "weeks_on_chart": "4"
+    },
+    {
+        "rank": "81",
+        "title": "NEW ETA",
+        "artist": "NewJeans",
+        "last_week": "-",
+        "peak_position": "81",
+        "weeks_on_chart": "1"
+    },
+    {
+        "rank": "82",
+        "title": "Luna",
+        "artist": "Peso Pluma & Junior H",
+        "last_week": "79",
+        "peak_position": "30",
+        "weeks_on_chart": "5"
+    },
+    {
+        "rank": "83",
+        "title": "Rubicon",
+        "artist": "Peso Pluma",
+        "last_week": "89",
+        "peak_position": "63",
+        "weeks_on_chart": "5"
+    },
+    {
+        "rank": "84",
+        "title": "Fight The Feeling",
+        "artist": "Rod Wave",
+        "last_week": "83",
+        "peak_position": "16",
+        "weeks_on_chart": "17"
+    },
+    {
+        "rank": "85",
+        "title": "Angels Don't Always Have Wings",
+        "artist": "Thomas Rhett",
+        "last_week": "93",
+        "peak_position": "85",
+        "weeks_on_chart": "2"
+    },
+    {
+        "rank": "86",
+        "title": "El Azul",
+        "artist": "Junior H x Peso Pluma",
+        "last_week": "87",
+        "peak_position": "55",
+        "weeks_on_chart": "16"
+    },
+    {
+        "rank": "87",
+        "title": "NEW I'm Just Ken",
+        "artist": "Ryan Gosling",
+        "last_week": "-",
+        "peak_position": "87",
+        "weeks_on_chart": "1"
+    },
+    {
+        "rank": "88",
+        "title": "Rush",
+        "artist": "Troye Sivan",
+        "last_week": "77",
+        "peak_position": "77",
+        "weeks_on_chart": "2"
+    },
+    {
+        "rank": "89",
+        "title": "Enchanted (Taylor's Version)",
+        "artist": "Taylor Swift",
+        "last_week": "65",
+        "peak_position": "19",
+        "weeks_on_chart": "3"
+    },
+    {
+        "rank": "90",
+        "title": "RE-ENTRY Oklahoma Smoke Show",
+        "artist": "Zach Bryan",
+        "last_week": "-",
+        "peak_position": "90",
+        "weeks_on_chart": "2"
+    },
+    {
+        "rank": "91",
+        "title": "Thang For You",
+        "artist": "Rylo Rodriguez Featuring NoCap",
+        "last_week": "96",
+        "peak_position": "91",
+        "weeks_on_chart": "2"
+    },
+    {
+        "rank": "92",
+        "title": "NEW But I Got A Beer In My Hand",
+        "artist": "Luke Bryan",
+        "last_week": "-",
+        "peak_position": "92",
+        "weeks_on_chart": "1"
+    },
+    {
+        "rank": "93",
+        "title": "NEW Cool With You",
+        "artist": "NewJeans",
+        "last_week": "-",
+        "peak_position": "93",
+        "weeks_on_chart": "1"
+    },
+    {
+        "rank": "94",
+        "title": "Ain't That Some",
+        "artist": "Morgan Wallen",
+        "last_week": "90",
+        "peak_position": "11",
+        "weeks_on_chart": "20"
+    },
+    {
+        "rank": "95",
+        "title": "Girl In Mine",
+        "artist": "Parmalee",
+        "last_week": "100",
+        "peak_position": "95",
+        "weeks_on_chart": "3"
+    },
+    {
+        "rank": "96",
+        "title": "Johnny Dang",
+        "artist": "That Mexican OT, Paul Wall & DRODi",
+        "last_week": "97",
+        "peak_position": "96",
+        "weeks_on_chart": "2"
+    },
+    {
+        "rank": "97",
+        "title": "Save Me",
+        "artist": "Jhene Aiko Featuring Kanye West",
+        "last_week": "98",
+        "peak_position": "97",
+        "weeks_on_chart": "2"
+    },
+    {
+        "rank": "98",
+        "title": "Please",
+        "artist": "Bebe Rexha",
+        "last_week": "91",
+        "peak_position": "25",
+        "weeks_on_chart": "13"
+    },
+    {
+        "rank": "99",
+        "title": "Lifestyle",
+        "artist": "Jason Aldean",
+        "last_week": "94",
+        "peak_position": "94",
+        "weeks_on_chart": "2"
+    },
+    {
+        "rank": "100",
+        "title": "Damaged",
+        "artist": "Doechii",
+        "last_week": "95",
+        "peak_position": "95",
+        "weeks_on_chart": "2"
+    }
+]
+
+
