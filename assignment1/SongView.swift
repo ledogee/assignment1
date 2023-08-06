@@ -74,10 +74,10 @@ struct SongView: View {
                                             .foregroundColor(.green)
                     if let duration = audioPlayer?.duration {
                         Slider(value: $currentTime, in: 0...duration, step: 0.1)
-                            .accentColor(.green)
+                            .accentColor(.green).disabled(true)
                     } else {
                         Slider(value: $currentTime, in: 0...0.1, step: 0.1)
-                            .accentColor(.green)
+                            .accentColor(.green).disabled(true)
                     }
                     
                 }

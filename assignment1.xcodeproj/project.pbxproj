@@ -13,7 +13,6 @@
 		B32B37E72A7CF1770034A27A /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32B37E62A7CF1770034A27A /* Song.swift */; };
 		B3515E332A7CF30900DE3B42 /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3515E322A7CF30900DE3B42 /* SongList.swift */; };
 		B3515E352A7CF74800DE3B42 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3515E342A7CF74800DE3B42 /* SongView.swift */; };
-		B3515E3A2A7D213600DE3B42 /* Try That In A Small Town.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B3515E392A7D213600DE3B42 /* Try That In A Small Town.mp3 */; };
 		B361EE202A6E578800DF9AC9 /* assignment1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361EE1F2A6E578800DF9AC9 /* assignment1App.swift */; };
 		B361EE222A6E578800DF9AC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361EE212A6E578800DF9AC9 /* ContentView.swift */; };
 		B361EE242A6E578A00DF9AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B361EE232A6E578A00DF9AC9 /* Assets.xcassets */; };
@@ -47,7 +46,6 @@
 		B32B37E62A7CF1770034A27A /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		B3515E322A7CF30900DE3B42 /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
 		B3515E342A7CF74800DE3B42 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
-		B3515E392A7D213600DE3B42 /* Try That In A Small Town.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Try That In A Small Town.mp3"; path = "../../../../Downloads/Try That In A Small Town.mp3"; sourceTree = "<group>"; };
 		B361EE1C2A6E578800DF9AC9 /* assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B361EE1F2A6E578800DF9AC9 /* assignment1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1App.swift; sourceTree = "<group>"; };
 		B361EE212A6E578800DF9AC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +57,7 @@
 		B361EE372A6E578B00DF9AC9 /* assignment1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assignment1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B361EE3B2A6E578B00DF9AC9 /* assignment1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1UITests.swift; sourceTree = "<group>"; };
 		B361EE3D2A6E578B00DF9AC9 /* assignment1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3E6D48C2A7F8B5B0002DBFE /* Try That In A Small Town.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Try That In A Small Town.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,19 +88,12 @@
 		B3515E312A7CF2C400DE3B42 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				B3E6D4892A7F89130002DBFE /* audio */,
 				B32B37E22A7CF0CB0034A27A /* data.json */,
 				B32B37E62A7CF1770034A27A /* Song.swift */,
 				B32B37E42A7CF10E0034A27A /* decoder.swift */,
 			);
 			path = model;
-			sourceTree = "<group>";
-		};
-		B3515E382A7D211A00DE3B42 /* mp3 */ = {
-			isa = PBXGroup;
-			children = (
-				B3515E392A7D213600DE3B42 /* Try That In A Small Town.mp3 */,
-			);
-			path = mp3;
 			sourceTree = "<group>";
 		};
 		B361EE132A6E578800DF9AC9 = {
@@ -134,7 +126,6 @@
 				106FEFC02A72DCA000A2A439 /* Mainview.swift */,
 				B3515E342A7CF74800DE3B42 /* SongView.swift */,
 				B361EE232A6E578A00DF9AC9 /* Assets.xcassets */,
-				B3515E382A7D211A00DE3B42 /* mp3 */,
 				B361EE252A6E578A00DF9AC9 /* assignment1.entitlements */,
 				B361EE262A6E578A00DF9AC9 /* Preview Content */,
 			);
@@ -164,6 +155,14 @@
 				B361EE3D2A6E578B00DF9AC9 /* assignment1UITestsLaunchTests.swift */,
 			);
 			path = assignment1UITests;
+			sourceTree = "<group>";
+		};
+		B3E6D4892A7F89130002DBFE /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				B3E6D48C2A7F8B5B0002DBFE /* Try That In A Small Town.mp3 */,
+			);
+			path = audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +272,6 @@
 				B361EE282A6E578A00DF9AC9 /* Preview Assets.xcassets in Resources */,
 				B361EE242A6E578A00DF9AC9 /* Assets.xcassets in Resources */,
 				B32B37E32A7CF0CB0034A27A /* data.json in Resources */,
-				B3515E3A2A7D213600DE3B42 /* Try That In A Small Town.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
