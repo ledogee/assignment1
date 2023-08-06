@@ -20,6 +20,7 @@
 		B361EE322A6E578B00DF9AC9 /* assignment1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361EE312A6E578B00DF9AC9 /* assignment1Tests.swift */; };
 		B361EE3C2A6E578B00DF9AC9 /* assignment1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361EE3B2A6E578B00DF9AC9 /* assignment1UITests.swift */; };
 		B361EE3E2A6E578B00DF9AC9 /* assignment1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361EE3D2A6E578B00DF9AC9 /* assignment1UITestsLaunchTests.swift */; };
+		B3E6D48E2A7F94290002DBFE /* Try That In A Small Town.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B3E6D48D2A7F94290002DBFE /* Try That In A Small Town.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +58,7 @@
 		B361EE372A6E578B00DF9AC9 /* assignment1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assignment1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B361EE3B2A6E578B00DF9AC9 /* assignment1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1UITests.swift; sourceTree = "<group>"; };
 		B361EE3D2A6E578B00DF9AC9 /* assignment1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B3E6D48C2A7F8B5B0002DBFE /* Try That In A Small Town.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Try That In A Small Town.mp3"; sourceTree = "<group>"; };
+		B3E6D48D2A7F94290002DBFE /* Try That In A Small Town.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Try That In A Small Town.mp3"; path = "../../../../../Downloads/Try That In A Small Town.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +161,7 @@
 		B3E6D4892A7F89130002DBFE /* audio */ = {
 			isa = PBXGroup;
 			children = (
-				B3E6D48C2A7F8B5B0002DBFE /* Try That In A Small Town.mp3 */,
+				B3E6D48D2A7F94290002DBFE /* Try That In A Small Town.mp3 */,
 			);
 			path = audio;
 			sourceTree = "<group>";
@@ -272,6 +273,7 @@
 				B361EE282A6E578A00DF9AC9 /* Preview Assets.xcassets in Resources */,
 				B361EE242A6E578A00DF9AC9 /* Assets.xcassets in Resources */,
 				B32B37E32A7CF0CB0034A27A /* data.json in Resources */,
+				B3E6D48E2A7F94290002DBFE /* Try That In A Small Town.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

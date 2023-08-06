@@ -74,10 +74,10 @@ struct SongView: View {
                                             .foregroundColor(.green)
                     if let duration = audioPlayer?.duration {
                         Slider(value: $currentTime, in: 0...duration, step: 0.1)
-                            .accentColor(.green).disabled(true)
+                            .accentColor(.green)
                     } else {
                         Slider(value: $currentTime, in: 0...0.1, step: 0.1)
-                            .accentColor(.green).disabled(true)
+                            .accentColor(.green)
                     }
                     
                 }
@@ -102,13 +102,17 @@ struct SongView: View {
         }
         .onAppear {
             // Load the audio file
-            if let audioURL = Bundle.main.url(forResource: song.title, withExtension: "mp3") {
+            if let audioURL = Bundle.main.url(forResource: song.title, withExtension: "mp3", subdirectory: "model/audio") {
+                print("Audio URL: \(audioURL)")
                 do {
                     audioPlayer = try AVAudioPlayer(contentsOf: audioURL)
                     audioPlayer?.prepareToPlay()
                 } catch {
                     print("Error loading audio file: \(error.localizedDescription)")
                 }
+            } else {
+                print(song.title)
+                print("Audio file not found.")
             }
         }
         .onDisappear {

@@ -11,7 +11,6 @@ import SwiftUI
 struct SongListView: View {
     @AppStorage("isDark") private var isDark = false
     @State private var searchText = ""
-    @State private var isOn = false
 
     var body: some View {
         NavigationView {
@@ -58,7 +57,7 @@ struct CustomNavigationLink: View {
         NavigationLink(destination: SongView(song: song)) {
             HStack {
                 // 1x Image on the left
-                Image("\(song.title) Square")
+                Image("\(song.title) square")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 40, height: 40) // Set the appropriate size for the image
