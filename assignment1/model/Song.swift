@@ -15,9 +15,14 @@ struct Song: Codable, Identifiable {
     let last_week: String
     let peak_position: String
     let weeks_on_chart: String
-//    let spotify_link: String
-//    let youtube_link: String
-//    let apple_link: String
+    let spotify_link: String
+    let youtube_link: String
+    let apple_link: String
     // Using rank as the unique identifier for Song
     var id: String { rank }
+}
+
+struct Coordinates: Codable {
+    var latitude: Double
+    var longitude: Double
 }

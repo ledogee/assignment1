@@ -13,7 +13,7 @@ struct SongListView: View {
     @State private var searchText = ""
 
     var body: some View {
-        NavigationView {
+        
             List {
                 if searchResults.isEmpty {
                     Text("Sorry, we cannot find your result!")
@@ -36,10 +36,10 @@ struct SongListView: View {
             }
             .environment(\.colorScheme, isDark ? .dark : .light)
             .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always))
-            .background(Image("app-cover-background"))
+            .navigationTitle("Top Songs")
         }
-        .navigationBarTitle("Top Songs")
-    }
+        
+    
 
     var searchResults: [Song] {
         if searchText.isEmpty {

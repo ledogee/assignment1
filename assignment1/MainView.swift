@@ -4,7 +4,7 @@ struct MainView: View {
     @State private var isInfoVisible = false
     
     var body: some View {
-        NavigationView{
+        NavigationView {
             ZStack {
                 // Background Picture
                 Image("backgroundpic")
@@ -12,25 +12,28 @@ struct MainView: View {
                     .scaledToFill()
                     .edgesIgnoringSafeArea(.all)
                 
-                VStack {
-                    Text("Top Songs in the Billboard")
-                        .font(.largeTitle)
-                        .foregroundColor(.white)
-                        .padding().font(.custom("neue-haas-grotesk-display", size: 36))
+                VStack(spacing: 20) {
+                    Text("Top 30 in the Billboard")
+                        .font(.custom("NHaasGroteskTXPro", size: 36))
                         .fontWeight(.bold)
-                        .foregroundColor(Color(red: 16/255, green: 17/255, blue: 25/255))
+                        .foregroundColor(.white)
                         .multilineTextAlignment(.center)
                         .lineSpacing(1.85)
                         .padding(.top, 40)
                         .padding(.bottom, 35)
                     
-                    NavigationLink(destination: SongListView(),label: {
-                        Text("Navigate").font(.headline)
-                            .foregroundColor(.white)
-                            .underline()
-                            .padding()
-                    })
-                    .background(Color.clear) // Add clear background to make the button active
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    
+                    // Custom styled NavigationLink
+                    NavigationLink(destination: SongListView()) {
+                        Text("Explore").foregroundColor(.black).font(.custom("NHaasGroteskTXPro", size: 20)).fontWeight(.bold)
+                            .frame(width: 150, height: 60).background(ZStack{
+                                RoundedRectangle(cornerRadius: 40, style: .continuous).foregroundColor(.white)
+                            }).clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                    }.offset(y:110)
+                    .frame(maxWidth: .infinity) // Make the button expand to full width
                     
                     Spacer()
                     
@@ -51,8 +54,8 @@ struct MainView: View {
                     Text("Information")
                         .font(.title)
                         .padding()
-                    
-                    // Add your information here
+                    Text("Name: Luong Gia Bao")
+                    Text("SId: 3915203")
                     
                     Spacer()
                     
@@ -63,19 +66,9 @@ struct MainView: View {
                 }
                 .background(Color.white)
                 .cornerRadius(20)
-                .padding()
+                .padding().frame(height:100)
             }
         }
-    }
-}
-
-// Custom button style to add decorations (gradient background)
-struct GradientButtonStyle: ButtonStyle {
-    func makeBody(configuration: Self.Configuration) -> some View {
-        configuration.label
-            .padding()
-            .background(LinearGradient(gradient: Gradient(colors: [Color.blue, Color.purple]), startPoint: .leading, endPoint: .trailing))
-            .cornerRadius(10)
     }
 }
 

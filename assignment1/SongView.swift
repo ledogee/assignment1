@@ -8,9 +8,7 @@ struct SongView: View {
     @State private var isPlaying = false
     @State private var timer: Timer?
     
-    // Assuming you have a song object with properties: title, artist, rank, and imageName
     var song: Song
-    
     var body: some View {
         ZStack {
             // Background Image
@@ -20,8 +18,10 @@ struct SongView: View {
                     .scaledToFill()
                     .clipped()
                     .edgesIgnoringSafeArea(.all)
+                    .opacity(isShowingExtraView ? 0.6 : 1)
                     .blur(radius: 10)
                     .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: .infinity)
+                
             }
             
             VStack {
@@ -69,34 +69,45 @@ struct SongView: View {
                             .frame(width: 30, height: 30)
                             .foregroundColor(.green)
                     }
-
-                        let currentTimeString = String(format: "%02d:%02d", Int(currentTime / 60), Int(currentTime) % 60)
-                                        Text(currentTimeString)
-                        .foregroundColor(.green).frame(width: 50).multilineTextAlignment(.leading)
+                    
+                    let currentTimeString = String(format: "%02d:%02d", Int(currentTime / 60), Int(currentTime) % 60)
+                    Text(currentTimeString)
+                        .foregroundColor(.green)
+                        .frame(width: 50)
+                        .multilineTextAlignment(.leading)
+                        .animation(nil) // Disable animation for text updates
+                    
                     if let duration = audioPlayer?.duration {
                         Slider(value: $currentTime, in: 0...duration, step: 0.1)
-                            .accentColor(.green).disabled(true)
+                            .accentColor(.green)
+                            .disabled(true) // Disable slider interaction
                     } else {
                         Slider(value: $currentTime, in: 0...0.1, step: 0.1)
-                            .accentColor(.green).disabled(true)
+                            .accentColor(.green)
+                            .disabled(true) // Disable slider interaction
                     }
                     
                 }
                 .padding()
                 
                 // Share Button
-                Button(action: {
-                    isShowingExtraView = true
-                }) {
-                    Text("Share")
-                }
-                .padding()
-                .foregroundColor(.white)
-                .background(Color.green)
-                .cornerRadius(8)
-                .sheet(isPresented: $isShowingExtraView, content: {
-                    Extraview()
-                })
+                if !isShowingExtraView {
+                                    Button(action: {
+                                        isShowingExtraView.toggle()
+                                    }) {
+                                        Text("Share")
+                                    }
+                                    .padding()
+                                    .foregroundColor(.white)
+                                    .background(Color.green)
+                                    .cornerRadius(8)
+                                    .onTapGesture {
+                                        isShowingExtraView.toggle()
+                                    }
+                                }
+                if isShowingExtraView {
+                    Extraview(isShowingSheet: $isShowingExtraView, song: song).opacity(1)
+                                }
             }
             .padding()
             .navigationBarTitle("\(song.title)", displayMode: .inline)
@@ -104,7 +115,6 @@ struct SongView: View {
         .onAppear {
             // Load the audio file
             if let audioURL = Bundle.main.url(forResource: song.title, withExtension: "mp3") {
-                print("Audio URL: \(audioURL)")
                 do {
                     audioPlayer = try AVAudioPlayer(contentsOf: audioURL)
                     audioPlayer?.prepareToPlay()
@@ -115,7 +125,7 @@ struct SongView: View {
                 print(song.title)
                 print("Audio file not found.")
             }
-            timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { _ in
+            timer = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { _ in
                 currentTime = audioPlayer?.currentTime ?? 0
                         }
         }
@@ -127,15 +137,5 @@ struct SongView: View {
             // Update the audio player's current time when the slider value changes
             audioPlayer?.currentTime = newValue
         }
-//        .onReceive(Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()) { _ in
-//            // Update the slider's value with the current time of the audio player
-//            currentTime = audioPlayer?.currentTime ?? 0
-//        }
-        
-    }
-}
-struct Extraview: View {
-    var body: some View {
-        Text("There is nothing here yet")
     }
 }

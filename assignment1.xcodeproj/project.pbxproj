@@ -14,13 +14,15 @@
 		B3515E332A7CF30900DE3B42 /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3515E322A7CF30900DE3B42 /* SongList.swift */; };
 		B3515E352A7CF74800DE3B42 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3515E342A7CF74800DE3B42 /* SongView.swift */; };
 		B361EE202A6E578800DF9AC9 /* assignment1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361EE1F2A6E578800DF9AC9 /* assignment1App.swift */; };
-		B361EE222A6E578800DF9AC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361EE212A6E578800DF9AC9 /* ContentView.swift */; };
 		B361EE242A6E578A00DF9AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B361EE232A6E578A00DF9AC9 /* Assets.xcassets */; };
 		B361EE282A6E578A00DF9AC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B361EE272A6E578A00DF9AC9 /* Preview Assets.xcassets */; };
 		B361EE322A6E578B00DF9AC9 /* assignment1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361EE312A6E578B00DF9AC9 /* assignment1Tests.swift */; };
 		B361EE3C2A6E578B00DF9AC9 /* assignment1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361EE3B2A6E578B00DF9AC9 /* assignment1UITests.swift */; };
 		B361EE3E2A6E578B00DF9AC9 /* assignment1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361EE3D2A6E578B00DF9AC9 /* assignment1UITestsLaunchTests.swift */; };
 		B3E6D48E2A7F94290002DBFE /* Try That In A Small Town.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B3E6D48D2A7F94290002DBFE /* Try That In A Small Town.mp3 */; };
+		B3E6D4932A7F99A50002DBFE /* NHaasGroteskTXPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E6D4922A7F99A50002DBFE /* NHaasGroteskTXPro.ttf */; };
+		B3E6D4952A7F9E9A0002DBFE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E6D4942A7F9E9A0002DBFE /* MapView.swift */; };
+		B3E6D49E2A7FA8030002DBFE /* ExtraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E6D49D2A7FA8030002DBFE /* ExtraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,14 +44,13 @@
 
 /* Begin PBXFileReference section */
 		106FEFC02A72DCA000A2A439 /* Mainview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mainview.swift; sourceTree = "<group>"; };
-		B32B37E22A7CF0CB0034A27A /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		B32B37E22A7CF0CB0034A27A /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		B32B37E42A7CF10E0034A27A /* decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decoder.swift; sourceTree = "<group>"; };
 		B32B37E62A7CF1770034A27A /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		B3515E322A7CF30900DE3B42 /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
 		B3515E342A7CF74800DE3B42 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
 		B361EE1C2A6E578800DF9AC9 /* assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B361EE1F2A6E578800DF9AC9 /* assignment1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1App.swift; sourceTree = "<group>"; };
-		B361EE212A6E578800DF9AC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B361EE232A6E578A00DF9AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B361EE252A6E578A00DF9AC9 /* assignment1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = assignment1.entitlements; sourceTree = "<group>"; };
 		B361EE272A6E578A00DF9AC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -59,6 +60,10 @@
 		B361EE3B2A6E578B00DF9AC9 /* assignment1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1UITests.swift; sourceTree = "<group>"; };
 		B361EE3D2A6E578B00DF9AC9 /* assignment1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B3E6D48D2A7F94290002DBFE /* Try That In A Small Town.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Try That In A Small Town.mp3"; path = "../../../../../Downloads/Try That In A Small Town.mp3"; sourceTree = "<group>"; };
+		B3E6D4922A7F99A50002DBFE /* NHaasGroteskTXPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NHaasGroteskTXPro.ttf; path = "../../../Downloads/New folder (7)/NHaasGroteskTXPro.ttf"; sourceTree = "<group>"; };
+		B3E6D4942A7F9E9A0002DBFE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B3E6D49C2A7FA5A30002DBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B3E6D49D2A7FA8030002DBFE /* ExtraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,13 +125,16 @@
 		B361EE1E2A6E578800DF9AC9 /* assignment1 */ = {
 			isa = PBXGroup;
 			children = (
+				B3E6D49C2A7FA5A30002DBFE /* Info.plist */,
 				B3515E312A7CF2C400DE3B42 /* model */,
 				B361EE1F2A6E578800DF9AC9 /* assignment1App.swift */,
 				B3515E322A7CF30900DE3B42 /* SongList.swift */,
-				B361EE212A6E578800DF9AC9 /* ContentView.swift */,
+				B3E6D4942A7F9E9A0002DBFE /* MapView.swift */,
 				106FEFC02A72DCA000A2A439 /* Mainview.swift */,
 				B3515E342A7CF74800DE3B42 /* SongView.swift */,
+				B3E6D49D2A7FA8030002DBFE /* ExtraView.swift */,
 				B361EE232A6E578A00DF9AC9 /* Assets.xcassets */,
+				B3E6D4922A7F99A50002DBFE /* NHaasGroteskTXPro.ttf */,
 				B361EE252A6E578A00DF9AC9 /* assignment1.entitlements */,
 				B361EE262A6E578A00DF9AC9 /* Preview Content */,
 			);
@@ -272,6 +280,7 @@
 			files = (
 				B361EE282A6E578A00DF9AC9 /* Preview Assets.xcassets in Resources */,
 				B361EE242A6E578A00DF9AC9 /* Assets.xcassets in Resources */,
+				B3E6D4932A7F99A50002DBFE /* NHaasGroteskTXPro.ttf in Resources */,
 				B32B37E32A7CF0CB0034A27A /* data.json in Resources */,
 				B3E6D48E2A7F94290002DBFE /* Try That In A Small Town.mp3 in Resources */,
 			);
@@ -298,11 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3E6D4952A7F9E9A0002DBFE /* MapView.swift in Sources */,
+				B3E6D49E2A7FA8030002DBFE /* ExtraView.swift in Sources */,
 				B3515E332A7CF30900DE3B42 /* SongList.swift in Sources */,
 				B32B37E72A7CF1770034A27A /* Song.swift in Sources */,
 				B32B37E52A7CF10E0034A27A /* decoder.swift in Sources */,
 				B3515E352A7CF74800DE3B42 /* SongView.swift in Sources */,
-				B361EE222A6E578800DF9AC9 /* ContentView.swift in Sources */,
 				106FEFC12A72DCA000A2A439 /* Mainview.swift in Sources */,
 				B361EE202A6E578800DF9AC9 /* assignment1App.swift in Sources */,
 			);
@@ -461,6 +471,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"assignment1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = assignment1/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -497,6 +508,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"assignment1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = assignment1/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
