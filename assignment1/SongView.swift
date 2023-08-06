@@ -6,6 +6,7 @@ struct SongView: View {
     @State private var audioPlayer: AVAudioPlayer?
     @State private var currentTime: TimeInterval = 0
     @State private var isPlaying = false
+    @State private var timer: Timer?
     
     // Assuming you have a song object with properties: title, artist, rank, and imageName
     var song: Song
@@ -71,13 +72,13 @@ struct SongView: View {
 
                         let currentTimeString = String(format: "%02d:%02d", Int(currentTime / 60), Int(currentTime) % 60)
                                         Text(currentTimeString)
-                                            .foregroundColor(.green)
+                        .foregroundColor(.green).frame(width: 50).multilineTextAlignment(.leading)
                     if let duration = audioPlayer?.duration {
                         Slider(value: $currentTime, in: 0...duration, step: 0.1)
-                            .accentColor(.green)
+                            .accentColor(.green).disabled(true)
                     } else {
                         Slider(value: $currentTime, in: 0...0.1, step: 0.1)
-                            .accentColor(.green)
+                            .accentColor(.green).disabled(true)
                     }
                     
                 }
@@ -102,7 +103,7 @@ struct SongView: View {
         }
         .onAppear {
             // Load the audio file
-            if let audioURL = Bundle.main.url(forResource: song.title, withExtension: "mp3", subdirectory: "model/audio") {
+            if let audioURL = Bundle.main.url(forResource: song.title, withExtension: "mp3") {
                 print("Audio URL: \(audioURL)")
                 do {
                     audioPlayer = try AVAudioPlayer(contentsOf: audioURL)
@@ -114,6 +115,9 @@ struct SongView: View {
                 print(song.title)
                 print("Audio file not found.")
             }
+            timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { _ in
+                currentTime = audioPlayer?.currentTime ?? 0
+                        }
         }
         .onDisappear {
             // Stop the audio player when the view disappears
@@ -123,10 +127,11 @@ struct SongView: View {
             // Update the audio player's current time when the slider value changes
             audioPlayer?.currentTime = newValue
         }
-        .onReceive(Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()) { _ in
-            // Update the slider's value with the current time of the audio player
-            currentTime = audioPlayer?.currentTime ?? 0
-        }
+//        .onReceive(Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()) { _ in
+//            // Update the slider's value with the current time of the audio player
+//            currentTime = audioPlayer?.currentTime ?? 0
+//        }
+        
     }
 }
 struct Extraview: View {
